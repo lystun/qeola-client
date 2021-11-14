@@ -1,0 +1,15 @@
+#selection button {
+  color: #212121;
+  background: #fff;
+  border: 0;
+}
+#selection button.active {
+  border-bottom: 3px solid #fe0072;
+}
+#selection button:hover {
+  border-bottom: 3px solid #fe0072;
+}
+#selection button:focus {
+  outline-width: 0;
+  border-bottom: 3px solid #fe0072;
+}

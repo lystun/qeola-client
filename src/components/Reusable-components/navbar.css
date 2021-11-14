@@ -1,0 +1,231 @@
+/* #navbar {
+  position: absolute;
+} */
+
+/* MENU OVERLAY */
+
+.over {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  /* background-color: rgb(0, 0, 0); */
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+#myNav.over.visible {
+  width: 100%;
+}
+#myNav.over.hidden {
+  width: 0%;
+}
+
+.over-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.over a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #c4c4c4;
+  display: block;
+  transition: 0.3s;
+}
+.over img.menu-img {
+  object-fit: cover;
+}
+
+.over a:hover,
+.over a:focus {
+  color: #f1f1f1;
+}
+
+.over button.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  color: #212121cc !important;
+  /* font-size: 60px; */
+}
+.over button.closebtn:hover {
+  color: #fe0072 !important;
+}
+
+div.row div.left {
+  display: none;
+}
+/* NAVBAR */
+#myNav a.nav-linkB {
+  color: #212121;
+}
+#myNav a.nav-linkB:hover {
+  color: #fe0072;
+}
+#myNav i.social-icons {
+  color: #212121bf;
+}
+#myNav i.social-icons:hover {
+  color: #212121;
+}
+
+nav {
+  z-index: 1 !important;
+}
+nav.navbar.active {
+  background: #000103 !important;
+}
+
+nav div ul li a {
+  color: #fff !important;
+  font-weight: 500;
+}
+nav div ul li a:hover {
+  color: #fe0072 !important;
+  font-weight: 500;
+}
+nav div ul li a.proj {
+  color: rgb(231, 231, 231) !important;
+  font-weight: 500;
+}
+nav div ul li a.proj:hover {
+  color: #fe0072 !important;
+  font-weight: 500;
+}
+nav div ul li a.proj.active {
+  color: #fe0072 !important;
+  font-weight: 600;
+}
+nav div ul li a.cta {
+  background-color: #fe0072 !important;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 50px;
+  border: 1px solid #fe0072;
+}
+nav div ul li a.cta:hover {
+  background-color: #fe007200 !important;
+  color: #fff !important;
+  font-weight: 500;
+  border-radius: 50px;
+  border: 1px solid #fe0072;
+}
+
+.animated-icon1,
+.animated-icon2,
+.animated-icon3 {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: 0.6s ease-in-out;
+  -o-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon1 span,
+.animated-icon2 span,
+.animated-icon3 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+}
+
+.animated-icon1 span {
+  background: #fff;
+}
+
+.animated-icon2 span {
+  background: #e3f2fd;
+}
+
+.animated-icon3 span {
+  background: #f3e5f5;
+}
+
+.animated-icon1 span:nth-child(1) {
+  top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+  top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+  top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+  top: 11px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+  top: 11px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.nav-linkage {
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 575px) {
+  .nav-linkage {
+    margin-left: 26px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .nav-linkage {
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  nav div ul li a.proj.active {
+    font-weight: 600;
+    border-bottom: 2px solid rgb(197, 197, 197);
+  }
+  div.row div.left {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  div.row div.left {
+    display: flex;
+  }
+}

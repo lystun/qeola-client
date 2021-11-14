@@ -1,0 +1,37 @@
+footer#footer {
+  background: #000103;
+}
+
+footer#footer p {
+  color: #ffffffb2;
+}
+
+footer#footer h6 {
+  color: #ffffff;
+}
+
+footer#footer input {
+  background: #000103;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+footer#footer input:focus {
+  outline-width: 0;
+}
+footer#footer i {
+  color: #fff;
+}
+footer#footer i:hover {
+  color: #fe0072;
+}
+
+footer .subscribe input {
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+footer .subscribe button {
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  color: #fff;
+}

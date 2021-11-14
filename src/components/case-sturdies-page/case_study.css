@@ -1,0 +1,15 @@
+#case-study button {
+  color: #212121;
+  background: #fff;
+  border: 0;
+}
+#case-study button.active {
+  border-bottom: 3px solid #fe0072;
+}
+#case-study button:hover {
+  border-bottom: 3px solid #fe0072;
+}
+#case-study button:focus {
+  outline-width: 0;
+  border-bottom: 3px solid #fe0072;
+}

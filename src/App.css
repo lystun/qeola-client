@@ -1,0 +1,25 @@
+body {
+  /* font-family: "Montserrat", sans-serif; */
+}
+h1 {
+  /* font-size: 64px; */
+}
+
+#empty-state .empty-state-image {
+  width: 70%;
+}
+@media only screen and (min-width: 768px) {
+  #empty-state .empty-state-image {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #empty-state .empty-state-image {
+    width: 35%;
+  }
+}
+/* @media only screen and (min-width: 1440px) {
+  #empty-state .empty-state-image {
+    width: 35%;
+  }
+} */

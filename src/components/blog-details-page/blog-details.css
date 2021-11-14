@@ -1,0 +1,120 @@
+.more-articles {
+  color: #fff;
+  width: 100%;
+}
+.more-articles-header {
+  color: #212121;
+}
+#blog-body .blog-passage {
+  width: 100%;
+}
+#blog-body .blog-details-header .category {
+  color: #0839d8;
+}
+#blog-body .blog-details-header {
+  width: 85%;
+  margin: 0;
+  margin-right: auto;
+}
+#pagination nav ul li {
+  background-color: none;
+}
+.page-item.active .page-link {
+  background-color: #fff;
+  border: 0;
+  color: #0839d8;
+}
+.page-item .page-link {
+  background-color: #fff;
+  border: 0;
+  color: #696a6d;
+}
+.page-item .page-link:hover {
+  background-color: #fff;
+  border: 0;
+  color: #0839d8;
+}
+.more-articles a {
+  color: #fff;
+}
+#blog-body .blog-passageb p {
+  /* color: #696a6d; */
+  /* width: 90%; */
+  /* line-height: normal; */
+  padding: 0px 0px;
+  margin: 5px 0px;
+}
+#blog-body .blog-passageb img {
+  padding: 0px 0px;
+  margin: 10px auto;
+  object-fit: contain;
+  height: 500px !important;
+  width: 100% !important;
+  border-radius: 10px;
+  text-align: center;
+}
+#blog-body .blog-passageb strong {
+  margin: 15px 0px 10px;
+}
+.loader {
+  text-align: center;
+  border: 16px solid #fff;
+  border-radius: 50%;
+  border-top: 16px solid #fe0072;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #blog-body.blog-body .blog-passage img {
+    padding: 0px 0px;
+    margin: 15px auto;
+    object-fit: contain;
+    height: 75% !important;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #blog-body .blog-passage {
+    width: 80%;
+    margin: auto;
+  }
+  .more-articles {
+    width: 80%;
+    margin: auto;
+  }
+  #blog-body .blog-details-header {
+    width: 70%;
+    margin: 0;
+    margin-right: auto;
+  }
+  #blog-body.blog-body .blog-passage img {
+    padding: 0px 0px;
+    margin: 35px auto;
+    object-fit: contain;
+    height: 75% !important;
+    width: 100%;
+  }
+}

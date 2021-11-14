@@ -1,0 +1,64 @@
+#process {
+  background: #f1f4fe8c;
+  /* height: 600px; */
+  color: #212121;
+}
+#about-section .card {
+  border: 0;
+  border-bottom: 7px solid #0839d8;
+  border-radius: 7px;
+  max-height: 17rem;
+  min-height: 17rem;
+  transition: background-color 0.5s;
+}
+#about-section .card:hover {
+  border: 0;
+  background-color: #0839d8;
+  color: #fff;
+  border-bottom: 0px solid #0839d8;
+  border-radius: 7px;
+  max-height: 17rem;
+  min-height: 17rem;
+}
+.process-header {
+  width: 75%;
+  margin: auto;
+}
+.media-header {
+  width: 75%;
+  margin: auto;
+}
+#quote {
+  color: #fff;
+  position: relative;
+}
+#quote .quote-cta {
+  color: #fff;
+}
+#quote .quote-cta:hover {
+  color: #fe0072;
+}
+
+#quote .quote {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 70%; */
+  /* text-align: center; */
+  /* margin: 0 auto; */
+  height: 100vh;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+}
+
+@media only screen and (min-width: 1024px) {
+  .process-header {
+    width: 50%;
+    margin: 0;
+    /* margin-left: auto; */
+  }
+  .media-header {
+    width: 50%;
+    margin: 0;
+  }
+}

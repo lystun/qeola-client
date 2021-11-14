@@ -1,0 +1,150 @@
+#contact input {
+  border-bottom: 2px solid;
+}
+#contact select:focus,
+#contact input:focus {
+  outline-width: 0;
+}
+/* #contact select option.branding:hover {
+} */
+
+.contact-submit {
+  background-color: #fe0072;
+  color: #fff;
+}
+.contact-submit:hover {
+  background-color: #ce055f;
+  color: #fff;
+}
+
+#contact .contact-header {
+  width: 90%;
+}
+#contact .contact-form {
+  width: 100%;
+}
+#contact .border-blue {
+  border: 0 0 1px 0;
+  border-color: #ce055f;
+}
+#contact .shrink {
+  transform: scale(0.9);
+  border-color: #0839d8;
+  position: relative;
+  animation-name: shrink;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes shrink {
+  0% {
+    /* background-color: red; */
+    /* left: 6px; */
+    bottom: 6px;
+  }
+
+  100% {
+    /* background-color: red; */
+    /* left: 6px; */
+    bottom: 6px;
+  }
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+.input-group input.form-control,
+.input-group button {
+  border: 0;
+  border-bottom: 2px solid #dbdbdb !important;
+}
+.attach-btn:hover {
+  color: #fe0072;
+  /* width: 20%; */
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 10px;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 10px;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 10px;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 10px;
+}
+@media only screen and (min-width: 728px) {
+  #contact .contact-header {
+    width: 80%;
+  }
+  #contact .contact-form {
+    width: 85%;
+  }
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 12px;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 12px;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 12px;
+  }
+  :-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #contact .contact-header {
+    width: 80%;
+  }
+  #contact .contact-form {
+    width: 75%;
+  }
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 14px;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 14px;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 14px;
+  }
+  :-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  #contact .contact-header {
+    width: 80%;
+  }
+  #contact .contact-form {
+    width: 70%;
+  }
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 16px;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 16px;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 16px;
+  }
+  :-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 16px;
+  }
+}

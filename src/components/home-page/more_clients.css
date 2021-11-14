@@ -1,0 +1,44 @@
+.more-clients-btn {
+  color: #fe0072;
+}
+.more-clients-btn:hover {
+  color: #ee0080;
+}
+a i.animate {
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: red; */
+  position: relative;
+  animation-name: ctaTwo;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+a i.animateA {
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: red; */
+  position: relative;
+  animation-name: ctaTwoB;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+@keyframes ctaTwo {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 12px;
+  }
+}
+@keyframes ctaTwoB {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 12px;
+  }
+}
